@@ -1,0 +1,114 @@
+{
+  "version": "1.0",
+  "updated_at": 1625097600000,
+  "engines": [
+    {
+      "id": "2048bt",
+      "name": "2048BT",
+      "baseUrl": "https://estsbhow.2048174.xyz",
+      "searchUrl": "/search-{keyword}-0-0-{page}.html",
+      "detailUrl": "/hash/{id}.html",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36",
+      "enabled": true,
+      "order": 0,
+      "function": 0,
+      "selectors": {
+        "resultList": "dl.detail",
+        "name": "dt a",
+        "size": "dd.info span:contains('文档大小')",
+        "link": "dt a",
+        "magnet": "dd.info span:last-child a"
+      }
+    },
+    {
+      "id": "1024bt195",
+      "name": "1024BT",
+      "baseUrl": "https://uampmgbc.1024bt195.buzz",
+      "searchUrl": "/search-{keyword}-0-0-{page}.html",
+      "detailUrl": "/hash/{id}.html",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36",
+      "enabled": true,
+      "order": 1,
+      "function": 0,
+      "selectors": {
+        "resultList": "div.ssbox",
+        "name": "div.title h3 a",
+        "size": "div.sbar span:contains('大小') b",
+        "link": "div.title h3 a",
+        "magnet": "div.sbar span a[href^='magnet']"
+      }
+    },
+    {
+      "id": "cilimao",
+      "name": "磁力猫",
+      "baseUrl": "https://fxocgxyj.8800472.xyz",
+      "searchUrl": "/search-{keyword}-0-0-{page}.html",
+      "detailUrl": "/hash/{id}.html",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36",
+      "enabled": true,
+      "order": 2,
+      "function": 0,
+      "selectors": {
+        "resultList": "div.ssbox",
+        "name": "div.title h3 a",
+        "size": "div.sbar span:contains('大小') b",
+        "link": "div.title h3 a",
+        "magnet": "div.sbar span a[href^='magnet']"
+      }
+    },
+    {
+      "id": "ciliding",
+      "name": "磁力鼎",
+      "baseUrl": "https://ciliding.sbs",
+      "searchUrl": "/sousuo/{keyword}_{page}_requests.html",
+      "detailUrl": "https://ciliding.sbs/neirong/",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "enabled": true,
+      "order": 3,
+      "function": 1,
+      "selectors": {
+        "resultList": ".ssbox",
+        "name": ".ssbox .title h3 a",
+        "size": ".ssbox .sbar .cpill",
+        "link": ".ssbox .title h3 a",
+        "magnet": ".ssbox .sbar a[href^='magnet']"
+      }
+    },
+    {
+      "id": "wuji_me",
+      "name": "无极磁链",
+      "baseUrl": "https://wuji.me",
+      "searchUrl": "/search?q={keyword}",
+      "detailUrl": "/{id}",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36",
+      "enabled": true,
+      "order": 4,
+      "function": 0,
+      "selectors": {
+        "resultList": "table.file-list tbody tr",
+        "name": "td a",
+        "size": "td.td-size",
+        "link": "td a",
+        "magnet": "td a[href^='magnet']"
+      }
+    },
+    {
+      "id": "zoucili",
+      "name": "走磁力",
+      "baseUrl": "https://zoucili.top",
+      "searchUrl": "/search_index/{keyword}_1_length/",
+      "detailUrl": "/detail_main/{id}/",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "enabled": true,
+      "order": 5,
+      "function": 1,
+      "selectors": {
+        "resultList": "div.panel.panel-default.border-radius",
+        "name": "div.panel-heading h3.panel-title a",
+        "size": "div.panel-body span.badge",
+        "link": "div.panel-heading h3.panel-title a",
+        "magnet": "div.panel-footer a[href^='magnet']"
+      }
+    }
+  ]
+}
